@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(
 	cors({
-		origin: "https://portofliobackend.onrender.com",
+        origin: "https://portfolio-frontend-dusky.vercel.app", // Укажите правильный URL фронтенда
 		methods: "GET,POST,PUT,DELETE",
 		credentials: true,
 	})
