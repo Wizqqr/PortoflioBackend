@@ -10,11 +10,12 @@ app.use(express.json());
 
 app.use(
 	cors({
-		origin: "http://localhost:3000",
+		origin: "https://portofliobackend.onrender.com",
 		methods: "GET,POST,PUT,DELETE",
 		credentials: true,
 	})
 );
+
 
 app.post('/contact', async (req, res) => {
     const { name, email, message } = req.body;
