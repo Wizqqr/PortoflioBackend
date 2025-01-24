@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(
 	cors({
-        origin: "https://portfolio-frontend-dusky.vercel.app", 
+        origin: "http://localhost:3000", 
 		methods: "GET,POST,PUT,DELETE",
 		credentials: true,
 	})
